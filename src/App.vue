@@ -14,7 +14,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
             <b-form-input size="sm" class="mr-sm-2" :id="`searchText`" type="text" v-model="text" placeholder="Search Flickr images" ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" variant="primary" @click="searchImagesClick()">Search</b-button>
+            <b-button size="sm" class="my-2 my-sm-0" variant="dark" @click="searchImagesClick()">Search</b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
